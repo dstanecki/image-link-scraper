@@ -13,7 +13,7 @@ if __name__ == '__main__':
     scrape()
     
     
-# Iterates through 'images' list and saves images to a local directory
+# Iterates over 'images' list and saves images to a local directory
 def scrape():
     for url in images:
         try:
